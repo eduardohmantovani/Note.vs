@@ -94,6 +94,7 @@ function setValor(valor) {
 function clickOperacao(paramOperacao) {
     this.operacao = paramOperacao;
     this.isInputNumero1 = false;
+    document.getElementById('operador').value = operacao;
 }
 
 function limparCalculadora() {
